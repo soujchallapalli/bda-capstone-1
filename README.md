@@ -1,20 +1,6 @@
-# BDA capstone 1: parallel video downloader
+# BDA capstone 1: Parallel video downloader
 
-This repository is a starter project for an in-class coding activity. Students will build a small Python app that downloads YouTube videos, records timing information, and compares serial processing with parallel processing.
-
-## Learning goals
-
-By the end of the activity, students will have practiced:
-
-- Git and VS Code workflow
-- Python virtual environments
-- Installing packages with `pip`
-- Downloading files with `yt-dlp`
-- Reading CSV files with Python's built-in `csv` module
-- Writing functions
-- Measuring execution time
-- Saving a simple Markdown report
-- Using `multiprocessing.Pool`
+This repository is a starter project for an in-class coding activity.
 
 ## Phase handouts
 
@@ -79,15 +65,3 @@ Students will create these files and folders during the phases:
 - `data/video_metadata.csv`
 
 The `solutions/` folder is where students should place their Python solution files.
-
-## Important notes
-
-- Download only videos that are appropriate for class use.
-- Do not commit downloaded video files to Git.
-- The `videos/` folder is for downloaded videos.
-- The `reports/` folder is for the generated Markdown report.
-- If `yt-dlp` stops working, update it:
-
-```bash
-pip install --upgrade yt-dlp
-```
